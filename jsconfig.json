@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,                             //엄격한 타입 체킹옵션 활성화
+    "jsx": "react",                             //react jsx구문 사용
+    "skipLibCheck": true,                       //컴파일러가 선언파일인 d.ts의 타입 체크를 건너뜀
+    "target": "es6",                            //ECMAscript 버전 지정
+    "module": "esnext",                         //컴파일된 자바스크립트 묘듈 시스템을 지정 (es2016, esnext - 신버전)
+    "outDir": "./dist",                         //컴파일된 파일들이 생성될 디렉토리
+    "esModuleInterop": true,                    //commonjs와 ES 모듈간의 상호 운용성을 향상
+    "forceConsistentCasingInFileNames": true,   //파일 이름의 대소문자를 강제로 일관되게 유지
+    "moduleResolution": "node",                 //모듈 해결 전략
+    "paths": {                                  //웹팩에서 설정한 절대경로 지정
+      "@src/*": ["src/*"],
+      "@assets/*": ["assets/*"],
+      "@config": ["config.js"],
+    }
+  }
+}

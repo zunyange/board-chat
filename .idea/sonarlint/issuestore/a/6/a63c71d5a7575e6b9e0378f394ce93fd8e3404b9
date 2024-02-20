@@ -1,0 +1,6 @@
+
+djavascript:S1481"<Remove the declaration of the unused 'setPageSize' variable.(—Þ«¶ùÿÿÿÿ8Ÿ‹„Ü1
+ajavascript:S1854"9Remove this useless assignment to variable "setPageSize".(—Þ«¶ùÿÿÿÿ8Ÿ‹„Ü1
+Ajavascript:S125#"Remove this commented out code.(Å½Õ†8Ÿ‹„Ü1
+rjavascript:S6443"IChange the argument of this setter to not use its matching state variable(¯æíŠüÿÿÿÿ8Ÿ‹„Ü1
+javascript:S6582Â"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(¾Åº8Ÿ‹„Ü1
